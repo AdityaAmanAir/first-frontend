@@ -1,4 +1,4 @@
-# Blockchain's Dynamic Profile Page
+# Blockchain's sudo Dynamic Profile Page
 
 ## Overview
 This repository contains the source code for a dynamic profile page designed for the Blockchain Club at VIT Bhopal. The profile page provides interactive elements like navigation buttons, loading animations, and social media links. It is optimized for blockchain developers and enthusiasts to showcase their profiles dynamically.
