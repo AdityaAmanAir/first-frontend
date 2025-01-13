@@ -22,7 +22,7 @@ This repository contains the source code for a dynamic profile page designed for
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/blockchain-profile-page.git
+   git clone https://github.com/adityaamanair/blockchain-profile-page.git
    ```
 2. Open `index.html` in a browser to view the profile page.
 3. Customize the content by editing `index.html` and `style.css`.
