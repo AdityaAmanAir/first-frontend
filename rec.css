@@ -1,0 +1,90 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #DAD4C5;
+}
+
+header {
+    background-color: #0d90b8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#search-bar {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #701919;
+    border-radius: 4px;
+}
+
+/* Main content section */
+#main-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+#video-player {
+    width: 70%;
+    padding: 20px;
+}
+
+#video-details h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+#video-details p {
+    font-size: 16px;
+    color: #555;
+}
+
+#video-grid {
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.video-card {
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.video-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.video-card .video-info {
+    padding: 10px;
+}
+
+.video-card .video-info h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.video-card .video-info p {
+    font-size: 14px;
+    color: #777;
+}
